@@ -40,8 +40,8 @@ function Home() {
         backgroundImg="solar-panel.jpg"
       />
       <Sections
-        title="Model Y tesla car"
-        description="buy car with screen touch"
+        title="Solar Roof"
+        description="Produce Clean Energy From Your Roof"
         leftButton="Customer Order"
         rightButton="existing inventory"
         backgroundImg="solar-roof.jpg"

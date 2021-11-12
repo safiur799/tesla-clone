@@ -23,7 +23,7 @@ function Headers() {
         <a href="sjf">tesla account</a>
         <CustomMenu />
       </RightMenu>
-      <BurgerMenu>
+      {/* <BurgerMenu>
         <CloseMenu />
         <li>
           <a href="soie">existing inventory</a>
@@ -44,7 +44,7 @@ function Headers() {
         <li>
           <a href="soie">change the status of the car</a>
         </li>
-      </BurgerMenu>
+      </BurgerMenu> */}
     </Container>
   );
 }
@@ -73,6 +73,9 @@ const Menu = styled.div`
     text-transform: uppercase;
     font-size: 16px;
     padding: 0 10px;
+  }
+  @media (max-width: 760px) {
+    display: none;
   }
 `;
 const RightMenu = styled.div`
